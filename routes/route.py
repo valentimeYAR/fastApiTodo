@@ -7,7 +7,7 @@ from bson import ObjectId
 
 from users.dependencies import get_current_user, get_current_user_role
 
-router = APIRouter(dependencies=[Depends(get_current_user)])
+router = APIRouter()
 
 
 # GET request
